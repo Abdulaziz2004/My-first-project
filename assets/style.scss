@@ -383,3 +383,85 @@ header {
 }
 
 // End Styling Services
+// Start Styling Shop
+
+.shop {
+  padding: 0 135px;
+  .title {
+    h1 {
+      text-align: center;
+      margin-top: 144px;
+      font-weight: normal;
+      font-size: 55px;
+      line-height: 70px;
+      color: #fff;
+    }
+  }
+  .shop-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 63px;
+    .shop-flex {
+      .shop-img {
+        width: 65%;
+        height: 201.31px;
+        background: #a394fe;
+        position: relative;
+        img {
+          position: absolute;
+          top: -145px;
+          width: 280px;
+        }
+      }
+      p {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: $poragrif-color;
+        margin-top: 30px;
+      }
+      button {
+        width: 187px;
+        height: 63px;
+        background: #ff0000;
+        border: none;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 36px;
+      }
+    }
+    .shop-flex:nth-child(3) {
+      margin-left: auto;
+      .space {
+        margin-top: 46px;
+        h2 {
+          font-weight: normal;
+          font-size: 50px;
+          line-height: 70px;
+          color: #ffc700;
+        }
+        p {
+          margin-top: 0;
+          font-weight: normal;
+          font-size: 19px;
+          line-height: 30px;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .special {
+    margin-top: 104px;
+    img {
+      // margin-left: auto;
+      // margin-right: auto;
+      // display: block;
+      width: 100%;
+    }
+  }
+}
