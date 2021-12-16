@@ -290,5 +290,96 @@ header {
   }
 }
 
-// End Styling History 
+// End Styling History
+// Start Styling Services
 
+.services {
+  padding: 0 135px 0 0;
+  position: relative;
+  .linea {
+    position: absolute;
+    z-index: -999;
+  }
+
+  .services-grid {
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    .services-flex:nth-child(2) {
+      margin-left: auto;
+      position: relative;
+
+      .lorem-flex {
+        display: flex;
+        h1 {
+          font-size: 55px;
+          line-height: 70px;
+          font-weight: normal;
+          font-family: $font-Cabin;
+          color: #fff;
+        }
+        ul {
+          margin-left: 90px;
+          display: flex;
+          flex-direction: column;
+          gap: 29px;
+          margin-top: 40px;
+          a {
+            text-decoration: none;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
+            color: $poragrif-color;
+            transition: 0.2s linear;
+          }
+          a:hover {
+            color: #fff;
+            font-weight: normal;
+            // font-size: 25px;
+            transform: translate(10px);
+          }
+        }
+
+        .lorem {
+          position: relative;
+          background: linear-gradient(
+            110.07deg,
+            rgba(255, 255, 255, 0.18) -11.17%,
+            rgba(255, 255, 255, 0) 118.82%,
+            rgba(255, 255, 255, 0.17) 118.82%
+          );
+          padding: 21px 20px 53px 19px;
+          width: 60%;
+          height: 60%;
+          margin-top: auto;
+          margin-left: auto;
+          p {
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 23px;
+            color: $poragrif-color;
+            letter-spacing: 15px;
+          }
+          .strelka {
+            width: 52px;
+            height: 46px;
+            background: #ff0000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            bottom: -10px;
+          }
+        }
+      }
+    }
+  }
+  .tire {
+    position: absolute;
+    top: 100px;
+    right: 0;
+  }
+}
+
+// End Styling Services
