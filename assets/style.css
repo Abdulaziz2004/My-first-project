@@ -350,6 +350,14 @@ header .container .chewrolet .grid .grid-flex:nth-child(3) ul a:hover {
           justify-content: space-between;
 }
 
+.services .services-grid h1 {
+  font-family: "Cabin", sans-serif;
+  font-weight: normal;
+  font-size: 55px;
+  line-height: 70px;
+  color: #fff;
+}
+
 .services .services-grid .services-flex:nth-child(2) {
   margin-left: auto;
   position: relative;

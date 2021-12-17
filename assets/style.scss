@@ -306,6 +306,14 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+
+    h1 {
+      font-family: $font-Cabin;
+      font-weight: normal;
+      font-size: 55px;
+      line-height: 70px;
+      color: #fff;
+    }
     .services-flex:nth-child(2) {
       margin-left: auto;
       position: relative;
@@ -524,3 +532,5 @@ footer {
     }
   }
 }
+
+// end footer styling 
