@@ -537,4 +537,77 @@ header .container .chewrolet .grid .grid-flex:nth-child(3) ul a:hover {
 .shop .special img {
   width: 100%;
 }
+
+footer {
+  padding: 0 135px;
+  margin-top: 109px;
+}
+
+footer .footer-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .footer-grid .footer-flex {
+  margin: auto;
+}
+
+footer .footer-grid .footer-flex a {
+  text-decoration: none;
+  color: #676767;
+  margin-top: 19px;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+footer .footer-grid .footer-flex a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-grid .footer-flex h4 {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+footer .footer-grid .footer-flex ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 13px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 35px;
+}
+
+footer .footer-grid .footer-flex ul a {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+footer .footer-grid .footer-flex:nth-child(1) {
+  margin-top: 0;
+}
+
+footer .footer-grid .footer-flex:nth-child(5) {
+  margin-top: 0;
+}
+
+footer .footer-grid .footer-flex:nth-child(5) .tarmoqlar {
+  margin-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 29px;
+}
 /*# sourceMappingURL=style.css.map */

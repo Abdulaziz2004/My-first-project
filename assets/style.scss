@@ -465,3 +465,62 @@ header {
     }
   }
 }
+
+// End Shop styling
+// Start Footer styling
+
+footer {
+  padding: 0 135px;
+  margin-top: 109px;
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    .footer-flex {
+      margin: auto;
+      a {
+        text-decoration: none;
+        color: $poragrif-color;
+        margin-top: 19px;
+        font-weight: normal;
+        font-size: 13px;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      h4 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 26px;
+        color: #fff;
+      }
+      ul {
+        display: flex;
+        gap: 13px;
+        flex-direction: column;
+        margin-top: 35px;
+
+        a {
+          margin-top: 0;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 23px;
+        }
+      }
+    }
+
+    .footer-flex:nth-child(1) {
+      margin-top: 0;
+    }
+    .footer-flex:nth-child(5) {
+      margin-top: 0;
+
+      .tarmoqlar {
+        margin-top: 25px;
+        display: flex;
+        gap: 29px;
+      }
+    }
+  }
+}
